@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Recipe-Book
+Welcome to Recipe-Bool, the perfect app for all your cooking adventures! Whether you're a seasoned chef or a kitchen novice, our recipe-book app is designed to elevate your culinary journey to new heights. Say goodbye to the hassle of flipping through traditional cookbooks and embrace the convenience of Culinary Creations right at your fingertips
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Getting Started with Recipe-Book App
 
 ## Available Scripts
 

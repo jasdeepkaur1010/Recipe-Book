@@ -1,8 +1,10 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Login from './components/Login';
 import Home from './components/Home';
+import Logout from './components/Logout';
+import Profile from './components/Profile';
 
 function App() {
   return (
@@ -11,10 +13,14 @@ function App() {
         <nav className='top-nav'>
           <Link to="/">Home </Link>
           <Link to="/login">Login</Link>
+          <Link to="/logout">Logout</Link>
+          <Link to="/profile">Profile</Link>
         </nav>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/logout" element={<Logout />} />
+        <Route path="/profile" element={<Profile />} />
       </Routes>
       </Router>
       {/* <header className="App-header"> */}
